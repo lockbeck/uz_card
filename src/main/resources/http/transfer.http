@@ -1,0 +1,15 @@
+POST http://localhost:8080/api/v1/transfer/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg0OTY0ODUsImV4cCI6MTY1ODUwMDA4NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoiOGE4YTg0OTY4MjI2MTVjZTAxODIyNjE3Mjc4YjAwMDEifQ.OkpqHpELviXu7DnP853uoSmGiftV1zdE25AJeA4WeGA
+Content-Type: application/json
+
+{
+  "fromCard": "9860066014101183",
+  "toCard": "9860674162422952",
+  "amount": "100",
+  "companyId": "8a8a8496822620ee018226238ad20005"
+}
+
+###
+GET http://localhost:8080/api/v1/transfer/finish/8a8a8496822620ee0182262528820007
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg0OTY0ODUsImV4cCI6MTY1ODUwMDA4NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoiOGE4YTg0OTY4MjI2MTVjZTAxODIyNjE3Mjc4YjAwMDEifQ.OkpqHpELviXu7DnP853uoSmGiftV1zdE25AJeA4WeGA
+

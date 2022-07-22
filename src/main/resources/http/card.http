@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/v1/card/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg0OTcyNzIsImV4cCI6MTY1ODUwMDg3MiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoiOGE4YTg0OTY4MjI2MjBlZTAxODIyNjIzOGFkMjAwMDUifQ.3u1nyjEEZTC4tOJSfDdPT8qQQ25pGr8SExWAUX42-Vc
+Content-Type: application/json
+
+{
+  "balance": "0",
+  "companyId": "8a8a8496822615ce01822617278b0001",
+  "clientId": "8a8a8496822615ce01822618b2ff0003",
+  "status": "ACTIVE"
+}
+
+###
+GET http://localhost:8080/init/initAdmin

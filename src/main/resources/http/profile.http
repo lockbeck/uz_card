@@ -1,0 +1,14 @@
+POST http://localhost:8080/profile/adm/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTgzMTU2NjUsImV4cCI6MTY1ODMxOTI2NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoiOGE4YTg0NTA4MjFiMzNiMTAxODIxYjMzZGEwNzAwMDAifQ.2ZZXJBWyp61QhnRg_IGzzLfygPIkNeBcwzPhcn2UHIk
+Content-Type: application/json
+
+{
+  "name": "moderator",
+  "username": "moderatorjon",
+  "password": "123",
+  "surname": "moder",
+  "role": "ROLE_MODERATOR"
+}
+
+###
+GET http://localhost:8080/init/initAdmin

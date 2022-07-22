@@ -1,0 +1,15 @@
+POST http://localhost:8080/api/v1/client/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg0OTY0ODUsImV4cCI6MTY1ODUwMDA4NSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoiOGE4YTg0OTY4MjI2MTVjZTAxODIyNjE3Mjc4YjAwMDEifQ.OkpqHpELviXu7DnP853uoSmGiftV1zdE25AJeA4WeGA
+Content-Type: application/json
+
+{
+  "name": "clientjon",
+  "surname": "client",
+  "middleName": "clienttt",
+  "phone": "998621524",
+  "passportSeria": "AB",
+  "passportNumber": "1234567"
+}
+
+###
+GET http://localhost:8080/init/initAdmin
